@@ -64,7 +64,29 @@ namespace LINQ_Assm1
 
             #endregion
 
+            #region Extesnion Methods
 
+            //int Number = 12345;
+
+            //var Result =  IntExtension.Reverse(Number);
+
+            // Console.WriteLine(Result);
+
+            //var Result =  Number.Reverse();
+
+            //  Console.WriteLine(Result);
+
+            //var Result = IntExtension.Reverse(Number);
+
+            //Console.WriteLine(Result);
+
+            //Number.Reverse();
+            //Console.WriteLine(Number);
+
+            //var X = 1.2 % 10;
+            //Console.WriteLine(X);
+
+            #endregion
 
 
         }
