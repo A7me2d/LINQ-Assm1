@@ -114,6 +114,27 @@ namespace LINQ_Assm1
 
             #endregion
 
+            #region LINQ
+
+            //List<int> Numbers = new List<int> { 1, 2, 3, 4, 5 };
+
+            //var Result =  Enumerable.Where(Numbers, N => N % 2 == 0);
+
+
+            //var Result = Numbers.Where( N => N % 2 == 0);
+
+            //Numbers.Any();
+
+            //foreach (var item in Result)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            #endregion
+
+
+
+
         }
     }
 }
