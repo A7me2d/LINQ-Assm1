@@ -88,6 +88,31 @@ namespace LINQ_Assm1
 
             #endregion
 
+            #region Anonymous
+
+            //Employee Emp01 = new Employee() { id = 1, Name = "Ahmed", Salary = 12000 };
+
+            //var Emp01 = new { id = 1, Name = "Ahmed", Salary = 12000 };
+
+            //var Emp02 = new { id = 1, Name = "Ahmed", Salary = 12000 };
+
+            //Emp01.id = 12;
+
+            //var Emp02 = Emp01 with { id = 12};
+
+            //Console.WriteLine(Emp01);
+            //Console.WriteLine(Emp02);
+
+            //Console.WriteLine(Emp01.GetType().Name);
+            //Console.WriteLine(Emp02.GetType().Name);
+
+
+            //if (Emp01.Equals(Emp02))
+            //    Console.WriteLine("Equal");
+            //else
+            //    Console.WriteLine("not Equal");
+
+            #endregion
 
         }
     }
