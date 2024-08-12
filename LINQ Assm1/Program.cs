@@ -9,10 +9,10 @@ namespace LINQ_Assm1
         //    return X;
         //}
 
-        static dynamic Print(dynamic X)
-        {
-            return X;
-        }
+        //static dynamic Print(dynamic X)
+        //{
+        //    return X;
+        //}
 
 
         static void Main(string[] args)
@@ -132,8 +132,35 @@ namespace LINQ_Assm1
 
             #endregion
 
+            #region LINQ Syntax
+            //List<int> Numbers = new List<int>() { 9, 8, 7, 6, 5, 1, 2, 3, 4 };
+
+            //var Result = Enumerable.Where(Numbers, N => N % 2 == 0);
+
+            //foreach (int item in Result) 
+            //{
+            //    Console.Write(item + " ");
+            //}
+
+            //var Result = Numbers.Where(N => N % 2 == 0); 
+
+            //foreach (int item in Result)
+            //{
+            //    Console.Write(item + " ");
+            //}
 
 
+            //List<int> Numbers = new List<int>() { 9, 8, 7, 6, 5, 1, 2, 3, 4 };
+
+            //var Result = from N in Numbers
+            //             where N % 2 == 0
+            //             select N;
+
+            //foreach(var item in Result)
+            //{
+            //    Console.WriteLine(item);
+            //} 
+            #endregion
 
         }
     }
