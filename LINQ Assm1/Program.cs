@@ -162,7 +162,6 @@ namespace LINQ_Assm1
             //} 
             #endregion
 
-
             #region LINQ Execution
             //List<int> Numbers = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
 
@@ -175,6 +174,16 @@ namespace LINQ_Assm1
             //    Console.WriteLine(item + " ");
             //} 
             #endregion
+
+            //ListGenerator.ProductsList
+
+            #region Setup
+
+            Console.WriteLine(ListGenerator.ProductsList[0]);
+            Console.WriteLine(ListGenerator.CustomersList[0]); 
+            #endregion
+
+
         }
       }
   }
