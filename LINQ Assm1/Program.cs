@@ -162,6 +162,20 @@ namespace LINQ_Assm1
             //} 
             #endregion
 
+
+            #region LINQ Execution
+            //List<int> Numbers = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+
+            //var Result = Numbers.Where(N => N % 2 == 0).ToList();
+
+            //Numbers.AddRange(new int[] { 10, 11, 12 });
+
+            //foreach (var item in Result) 
+            //{
+            //    Console.WriteLine(item + " ");
+            //} 
+            #endregion
         }
-    }
-}
+      }
+  }
+
